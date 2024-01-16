@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+ <!-- Created By CodingLab - www.codinglabweb.com -->
+ <html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+  <title>Contact Us  </title>
+  <link rel="stylesheet" href="contact.css">
+  <!-- Fontawesome CDN Link -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<style>
+
+
+*{
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+  outline: none;
+ 
+  box-sizing: border-box;
+
+  }
+body{
+  font-family: montserrat;
+  background: black;
+  }
+Nav{
+ background: transparent;
+ height: 80px;
+ width: 100%;
+ position: fixed; 
+ top: 0;
+ width: 100%;
+
+
+ }
+label.logo{
+ color: White;
+ font-size: 35px;
+ line-height: 80px;
+ padding: 0 100px;
+ font-weight: bold;
+}
+
+nav ul{
+ float: right;
+ margin-right: 20px;
+}
+nav ul li{
+ display: inline-block;
+ line-height: 80px;
+ margin: 0 50px;
+}
+nav ul li a {
+  color: white;
+  font-size: 17px;
+  text-transform: uppercase;
+  border: 1px solid transparent;
+  padding: 7px 10px;
+  border-radius: 3px;
+}
+a.active,a:hover{
+ border: 1px solid aqua;
+ transition: .5s;
+ }
+ 
+span{
+ color: aqua;
+}
+</style>
+</head>
+<body>
+
+<nav>
+  <label class="logo">k<span><sup>3</sup></span>oDivine</label>
+  <ul>
+    <li><a href="about.html">Home</a></li>
+    <li><a href="skill.html">Skill</a></li>
+    <li><a href="#">Projects</a></li>
+    <li><a class="active" href="contact.html">Contact</a></li>
+
+  </ul>
+ 
+  
+ </nav>
+ 
+
+
+   <div class="container">
+     <div class="content">
+       <div class="left-side">
+         <div class="address details">
+           <i class="fas fa-map-marker-alt "></i>
+           <div class="topic">Address</div>
+           <div class="text-one">331, Minnaar street</div>
+           <div class="text-two">Pretoria Central</div>
+         </div>
+         <div class="phone details">
+           <i class="fas fa-phone-alt"></i>
+           <div class="topic">Phone</div>
+           <div class="text-one">+27 81 852 7887</div>
+           <div class="text-two">+27 72 587 3756</div>
+         </div>
+         <div class="email details">
+           <i class="fas fa-envelope"></i>
+           <div class="topic">Email</div>
+           <div class="text-one">tsiekeorapetse45@gmail.com</div>
+           <div class="text-two">divinetsie6@gmail.com</div>
+         </div>
+       </div>
+       <div class="right-side">
+         <div class="topic-text">Send us a message</div><br>
+         <div class="p">
+         <p>If you have any work for me or any types of quries related to my work/profession, you can send me message from here. It's my pleasure to help you.</p>
+        </div>
+         <form action="#">
+         <div class="input-box">
+           <input type="text" placeholder="Enter your name">
+         </div>
+         <div class="input-box">
+           <input type="text" placeholder="Enter your email">
+         </div>
+         <div class="input-box message-box">
+          <textarea  placeholder="Enter your message">
+        
+            </textarea>
+         </div>
+         <div class="button">
+           <input type="button" value="Send Now" >
+         </div>
+       </form>
+     </div>
+     </div>
+   </div>
+ 
+  
+ 
+  </body>
+</html>

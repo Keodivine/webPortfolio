@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+<style>
+*{
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+  }
+body{
+  font-family: montserrat;
+  background: black;
+  }
+Nav{
+ background: black;
+ height: 80px;
+ width: 100%;
+ }
+label.logo{
+ color: White;
+ font-size: 35px;
+ line-height: 80px;
+ padding: 0 100px;
+ font-weight: bold;
+}
+
+nav ul{
+ float: right;
+ margin-right: 20px;
+}
+nav ul li{
+ display: inline-block;
+ line-height: 80px;
+ margin: 0 50px;
+}
+nav ul li a {
+  color: white;
+  font-size: 17px;
+  text-transform: uppercase;
+  border: 1px solid transparent;
+  padding: 7px 10px;
+  border-radius: 3px;
+}
+a.active,a:hover{
+ border: 1px solid aqua;
+ transition: .5s;
+ }
+
+ 
+ 
+span{
+ color: aqua;
+}
+.detel{
+ margin-left: 8%;
+ margin-top: 13%;
+}
+
+.detel h1{
+ font-size: 32px;
+ color: white;
+ margin-bottom: 20px;
+}
+
+.detel p{
+ color: white;
+ line-height: 22px;
+ 
+}
+
+.detel a{
+ background: black;
+ padding: 10px 18px;
+ text-decoration: none;
+ font-weight: bold;
+ color: aqua;
+ display: inline-block;
+ margin: 30px 0;
+ border-radius: 5px;
+}
+
+.images{
+ width: 30%;
+ height: 89%;
+ position: absolute;
+ bottom: 0;
+ right: 100px;
+}
+.images img{
+ height: 100%;
+ position: absolute;
+ left: 59px;
+ bottom: 0;
+ transform: translateX(-50%);
+ transition: bottom 1s, left 1s;
+}
+
+.images:hover .I{
+ bottom: 0;
+ left: 45%;
+}
+.icon{
+    display: flex;
+    align-items: center;
+    height: 36px;
+    aspect-ratio: 1 / 1;
+}
+
+.section:hover{
+    width: 140px;
+    transition: width 300ms ease-in-out 0s, background-color 100ms linear 0s;
+}
+
+.section::after{
+    content: attr(tooltip);
+    margin-left: 10px;
+}
+
+.instagram:hover{
+    background: black;
+}
+
+.linkedin :hover{
+    background: black;
+}
+
+.github:hover{
+    background: black;
+}
+.section{
+    background-color: transparent;
+    color: aqua;
+    height: 36px;
+    width: 36px;
+    margin: 0px 7px 0px;
+    padding: 5px;
+    border-radius: 8px;
+    display: inline-flex;
+    align-items: center;
+    white-space: nowrap;
+    overflow: hidden;
+    
+    transition: width 300ms ease-in-out 0s, background-color 300ms linear 200ms;
+}
+</style>
+</head>
+<body>
+
+<nav>
+  <label class="logo">k<span><sup>3</sup></span>oDivine</label>
+  <ul>
+  
+  <li><a class="active" href="about.html">Home</a></li>
+  <li><a href="skill.html">Skill</a></li>
+  <li><a href="#">Projects</a></li>
+  <li><a href="contact.html">Contact</a></li>
+
+  </ul>
+  
+  </nav>
+  
+  
+   <div class="detel">
+  <h1>I'm  <span>Keorapetse Tsie</span></h1>
+  <p> A Front-End Developer located in <span>PRETORIA, SOUTH AFRICA</span>. I have a serious <br>
+  passion for Web/Software Development, animations and creating intuitive, dynamic<br>
+  user experiences.</p><br>
+
+
+
+<p>Interested in the entire frontend spectrum and working on ambitious<br> projects with positive people.</p><br>
+
+<p>Let’s make something special.</p><br>
+
+<a href="file:///C:/Users/tsiek/OneDrive/Desktop/kptcv2.pdf">DOWNLOAD CV</a>
+
+
+
+    <div class="container">
+       
+        <a href="https://www.instagram.com/keeora_za/?hl=en">
+            <div class="section instagram" tooltip="Instagram">
+                <div class="icon">
+                    <i class="fab fa-instagram fa-lg"></i>
+                </div>
+            </div>
+        </a>
+        <a href="www.linkedin.com/in/keorapetse-tsie-2a04231ba">
+            <div class="section linkedin" tooltip="linkedin">
+                <div class="icon">
+                    <i class="fab fa-linkedin fa-lg"></i>
+                </div>
+            </div>
+        </a>
+        <a href="https://github.com/Keodivine">
+            <div class="section github" tooltip="Github">
+                <div class="icon">
+                    <i class="fab fa-github fa-lg"></i>
+                </div>
+            </div>
+        </a>
+    </div>
+
+
+
+  </div>
+  
+  <div class="images">
+    <img src="Black.jpg" class="I">
+  </div>
+  
+  </body>
+</html>
