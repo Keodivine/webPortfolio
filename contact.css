@@ -12,9 +12,9 @@ body{
 .container{
   width: 70%;
   background: #121212;
-  border-radius: 6px;
+  border-radius: 10px;
   padding: 20px 60px 30px 40px;
-  box-shadow: 0 5px 10px #00FFFF;
+  box-shadow: 0 5px 10px #00ffff;
 }
 .container .content{
   display: flex;
